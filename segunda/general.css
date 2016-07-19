@@ -1,0 +1,275 @@
+
+<!--HTML5-frame-->
+@charset "utf-8";
+
+.caja .menu{
+    width: 50%;
+    opacity: 0.8;
+    float: right;
+    margin-bottom: 10px;
+   
+}
+.eliminar{
+    left: 90px;
+    top; 400px
+    
+}
+.tabla {
+    position: absolute;
+    left: 70px;
+    top:500px;
+    background: #CCC;
+}
+.caja .banner{
+    
+    width: 50%;
+    height: 180%;
+    border: .5px solid;
+    border-color: black;
+    margin: auto;
+    background-size: 100% 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 130px;
+    animation: banner 10s infinite;
+    animation-direction:alternate;
+    margin-top: 2%;
+    
+}
+
+@keyframes banner{
+    0%, 30%{
+        background-image: url(img/23.jpg);
+        opacity: 1;
+    }
+    35%, 65%{
+        background-image: url(img/32.jpg);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 1;
+    }
+    70%, 100%{
+        opacity: 1;
+        background-image: url(img/1.jpg);
+    }
+}
+.caja .botones{
+    margin-top: 46px;
+    float: right;
+}
+
+.caja .menu{
+    width: 55%;
+    padding: 8px;
+    background-color: rgb(20,40,30);
+    opacity: 30;
+    margin-left: 5px;
+    float:right;
+}
+
+
+
+.caja .contenido{
+  background-color: rgba(0,0,0,.8);    
+    color: white;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    height: 30em;
+    float: left;
+    text-align: center;
+}
+
+
+/*--------------------------galeria--------------------------*/
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+/*Estilos de la galeria*/
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria li {
+    margin: 5px;
+}
+
+.galeria img {
+    width: 150px;
+    height: 100px;
+}
+
+/*Estilos del modal*/
+
+.modal {
+    display: none;
+}
+
+.modal:target {
+    
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen {
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+/*----------------------------imagen en grande----------*/
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/*-------------------------------BOTON "X"----------------*/
+.cerrar { 
+    float: inherit;
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration:inherit;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+/*-----------------------------------------------------*/
+
+
+
+
+
+.caja .destacados{
+    color: white;
+    float: right;
+    background-color: rgba(0,0,0,.8);
+    float: right;
+    width: 48%;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    height: 30em;
+    text-align: center;
+}
+
+.caja .formulario{
+    width: 50%;
+    height: 80%;
+    overflow: auto;
+    
+}
+
+
+.caja .gl{
+    color: white;
+    float: center;
+    clear: both;
+    background-color: rgba(0,0,0,.8);
+    padding: 12px;
+    text-align: center;
+}
+
+.caja .pie{
+    color: white;
+    height: 3em;
+    clear: both;
+    background-color: rgba(0,0,0,.8);
+    padding: 12px;
+}
+
+ul{
+		list-style-type:inherit;
+		margin:5px;
+		padding: 0px;
+		border-left-width: 2px;
+		border-left-style: solid;
+		border-left-color: #ccc; 
+		overflow:hidden;
+	}
+li{
+		display: inline;
+float: right;
+	}
+a{
+		font-family: arial,Helvetica,Sans-serif;
+		color: #000;
+		text-decoration: none;
+		font-size: .99em;
+		display: block;
+		float: center;
+		padding: 6px;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+		border-bottom-color: #ccc;
+		background-color: #eaeaea;
+		border-top-width: 2px;
+		border-top-style: solid;
+		border-top-color: #ccc;
+		border-right-width: 2px;
+		border-right-style: solid;
+		border-right-color: #ccc;
+    
+	}
+
+
+
+h4 {
+    color: yellow;
+    text-align: center;
+}
+h5{
+    color: yellow;
+    text-align: center;
+}
+</head>

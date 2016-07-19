@@ -1,0 +1,31 @@
+.caja .banner{
+    width: 50%;
+    height: 150%;
+    border: .5px solid;
+    border-color: black;
+    margin: auto;
+    background-size: 100% 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 100px;
+    animation: banner 10s infinite;
+    animation-direction:alternate;
+}
+
+@keyframes .banner{
+    0%, 30%{
+        background-image: url(img/23.jpg);
+        opacity: 1;
+    }
+    35%, 65%{
+        background-image: url(img/32.jpg);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 1;
+    }
+    70%, 100%{
+        opacity: 1;
+        background-image: url(img/1.jpg);
+    }
+}
